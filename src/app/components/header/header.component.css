@@ -42,14 +42,22 @@
   justify-content: center;
 }
 .header-navlink1 {
+  transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
+.header-navlink1:hover {
+  color: var(--dl-color-gray-500);
+}
 .header-navlink2 {
+  transition: 0.3s;
   margin-left: var(--dl-space-space-unit);
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
+}
+.header-navlink2:hover {
+  color: var(--dl-color-gray-500);
 }
 
 
