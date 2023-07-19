@@ -1,0 +1,187 @@
+:host { 
+  display: contents; 
+}
+.who-we-are-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.who-we-are-testimonial {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.who-we-are-text {
+  color: var(--dl-color-gray-black);
+  font-size: 3rem;
+}
+.who-we-are-text01 {
+  color: var(--dl-color-gray-black);
+  font-size: 1.15rem;
+  max-width: 600px;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.who-we-are-container1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.who-we-are-testimonial-card {
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.who-we-are-icon {
+  width: var(--dl-size-size-small);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.who-we-are-testimonial1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.who-we-are-text06 {
+  color: var(--dl-color-gray-500);
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.who-we-are-link {
+  display: contents;
+}
+.who-we-are-image {
+  width: 100px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.who-we-are-text07 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.who-we-are-testimonial-card1 {
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.who-we-are-icon2 {
+  width: var(--dl-size-size-small);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.who-we-are-testimonial2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.who-we-are-text08 {
+  color: var(--dl-color-gray-500);
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.who-we-are-link1 {
+  display: contents;
+}
+.who-we-are-image1 {
+  width: 100px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.who-we-are-text09 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.who-we-are-testimonial-card2 {
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+.who-we-are-icon4 {
+  width: var(--dl-size-size-small);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.who-we-are-testimonial3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.who-we-are-text10 {
+  color: var(--dl-color-gray-500);
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+}
+.who-we-are-link2 {
+  display: contents;
+}
+.who-we-are-image2 {
+  width: 100px;
+  object-fit: cover;
+  text-decoration: none;
+}
+.who-we-are-text11 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+@media(max-width: 991px) {
+  .who-we-are-text {
+    text-align: center;
+  }
+  .who-we-are-text01 {
+    text-align: center;
+  }
+  .who-we-are-container1 {
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .who-we-are-testimonial {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .who-we-are-icon {
+    height: var(--dl-size-size-small);
+  }
+  .who-we-are-icon2 {
+    height: var(--dl-size-size-small);
+  }
+  .who-we-are-icon4 {
+    height: var(--dl-size-size-small);
+  }
+}
+@media(max-width: 479px) {
+  .who-we-are-testimonial {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .who-we-are-testimonial-card {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .who-we-are-testimonial-card1 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .who-we-are-testimonial-card2 {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
